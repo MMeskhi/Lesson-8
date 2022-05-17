@@ -98,8 +98,6 @@ img {
     height: 55px;
 }
 
-section {}
-
 .section-container {
     display: grid;
     margin: 6.5% auto;
@@ -139,8 +137,7 @@ section {}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px auto;
-    padding:
+    margin: 35px auto;
 }
 
 .dots {
@@ -164,5 +161,4 @@ section {}
     border-radius: 50%;
     display: inline-block;
     margin: 5px;
-
 }

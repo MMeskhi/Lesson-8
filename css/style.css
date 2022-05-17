@@ -98,7 +98,54 @@ img {
     height: 55px;
 }
 
+section {}
 
+.section-container {
+    display: grid;
+    margin: 6.5% auto;
+    overflow: hidden;
+}
+
+.section-scroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    max-width: 1700px;
+    width: 100%;
+}
+
+.left-side {
+    margin-top: 2.5%;
+    width: 500px;
+    height: 400px;
+    transform: rotate(-10deg);
+
+}
+
+.middle-side {
+    width: 550px;
+    height: 450px;
+}
+
+.right-side {
+    margin-top: 2.5%;
+    width: 500px;
+    height: 400px;
+    transform: rotate(10deg);
+}
+
+.dots-arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+    padding:
+}
+
+.dots {
+    margin-right: 450px;
+}
 
 .dot {
     height: 10px;
